@@ -1,0 +1,115 @@
+# Markdown
+
+Markdown — язык разметки для форматирования текста.
+
+---
+
+## Заголовки
+```markdown
+# Заголовок H1
+## Заголовок H2
+### Заголовок H3
+```
+# Заголовок H1
+## Заголовок H2
+### Заголовок H3
+
+---
+
+## Форматирование текста
+```markdown
+**Жирный текст**
+*Курсив*
+~~Зачеркнутый~~
+`Моноширинный`
+```
+**Жирный текст**  
+*Курсив*  
+~~Зачеркнутый~~  
+`Моноширинный`  
+
+---
+
+## Списки
+**Маркированный:**
+```markdown
+- Первый пункт
+- Второй пункт
+  - Вложенный
+```
+- Первый пункт
+- Второй пункт
+  - Вложенный
+
+**Нумерованный:**
+```markdown
+1. Первый
+2. Второй
+3. Третий
+```
+1. Первый
+2. Второй
+3. Третий
+
+---
+
+## Ссылки и изображения
+```markdown
+[Google](https://google.com)
+
+![Картинка](ссылка на картинку((https://...)/(локальная ссылка))
+```
+[Google](https://google.com)  
+![Картинка](data:image/jpeg;base64,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)
+
+---
+
+## Код
+**В строке:**
+```markdown
+`print("Hello")`
+```
+`print("Hello")`
+
+**Блок кода:**
+\`\`\`python
+print("Hello, world!")
+\`\`\`
+
+```python
+print("Hello, world!")
+```
+
+---
+
+## Цитаты
+```markdown
+> Это цитата
+>> Вложенная цитата
+```
+> Это цитата  
+>> Вложенная цитата  
+
+---
+
+## Таблицы
+```markdown
+| Имя  | Возраст |
+|------|---------|
+| Анна | 25      |
+| Иван | 30      |
+```
+| Имя  | Возраст |
+|------|---------|
+| Анна | 25      |
+| Иван | 30      |
+
+---
+
+## Горизонтальная линия
+```markdown
+---
+```
+---
+
+---
